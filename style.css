@@ -1,0 +1,459 @@
+#dobitak0 {
+    position: relative;
+    text-align:left;
+    top: -5px;
+    left: 0px;
+    font-size: 32px;
+    color:yellow;
+    font-family: Arial;
+}
+#dobitak1{
+    position: relative;
+    text-align:left;
+    top: -13px;
+    font-size: 32px;
+    color:red;
+    font-family: Arial;
+}
+#dobitak2{
+    position: relative;
+    text-align:left;
+    top: -21px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobitak3{
+    position: relative;
+    text-align:left;
+    top: -29px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobitak4{
+    position: relative;
+    text-align:left;
+    top: -37px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobitak5{
+    position: relative;
+    text-align:left;
+    top: -45px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobitak6{
+    position: relative;
+    text-align:left;
+    top: -53px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobitak7{
+    position: relative;
+    text-align:left;
+    top: -61px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobitak8{
+    position: relative;
+    text-align:left;
+    top: -69px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobitak9{
+    position: relative;
+    text-align:left;
+    top: -77px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobit0{
+    position: absolute;
+    text-align: right;
+    top: 3px;
+    right: 600px;
+    font-size: 32px;
+    color:yellow;
+    font-family: Arial;
+}
+#dobit1{
+    position: absolute;
+    text-align: right;
+    top: 33px;
+    right: 600px;
+    font-size: 32px;
+    color:red;
+    font-family: Arial;
+}
+#dobit2{
+    position: absolute;
+    text-align: right;
+    top: 61px;
+    right: 600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobit3{
+    position: absolute;
+    text-align: right;
+    top: 90px;
+    right: 600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobit4{
+    position: absolute;
+    text-align: right;
+    top: 118px;
+    right: 600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobit5{
+    position: absolute;
+    text-align: right;
+    top: 148px;
+    right: 600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobit6{
+    position: absolute;
+    text-align: right;
+    top: 176px;
+    right: 600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobit7{
+    position: absolute;
+    text-align: right;
+    top: 205px;
+    right: 600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobit8{
+    position: absolute;
+    text-align: right;
+    top: 234px;
+    right: 600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#dobit9{
+    position: absolute;
+    text-align: right;
+    top: 264px;
+    right: 600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#kredit{
+    position:absolute;
+    text-align:left;
+    top: 36px;
+    left: 1574px;
+    font-size: 32px;
+    color:red;
+    font-family: Arial;
+}
+#credit{
+    position:absolute;
+    text-align:left;
+    top: 66px;
+    left: 1600px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#ulog{
+    position: absolute;
+    text-align:left;
+    top: 120px;
+    left: 1588px;
+    font-size: 32px;
+    color:yellow;
+    font-family: Arial;
+}
+#bet{
+    position: absolute;
+    text-align:left;
+    top: 150px;
+    left: 1612px;
+    font-size: 32px;
+    color:burlywood;
+    font-family: Arial;
+}
+#autohold{
+    position: absolute;
+    text-align:left;
+    top: 208px;
+    left: 1548px;
+    font-size: 32px;
+    color:blue;
+    font-family: Arial;
+}
+#reklama1{
+    position: absolute;
+    text-align:left;
+    top: 340px;
+    left: 460px;
+    font-size: 250px;
+    font-style: italic;
+    color:red;
+    font-family: Algerian;
+}
+#reklama2{
+    position: absolute;
+    text-align:left;
+    top: 560px;
+    left: 720px;
+    font-size: 250px;
+    font-style: italic;
+    color:red;
+    font-family: Algerian;
+}
+#levo{
+    position: absolute;
+    text-align:left;
+    top: 885px;
+    left: 10px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#desno{
+    position: absolute;
+    text-align:left;
+    top: 885px;
+    left: 1606px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#poruka1{
+    position: absolute;
+    text-align:left;
+    top: 885px;
+    left: 734px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#poruka2{
+    position: absolute;
+    text-align:left;
+    top: 885px;
+    left: 734px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#poruka3{
+    position: absolute;
+    text-align:left;
+    top: 885px;
+    left: 734px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#poruka4{
+    position: absolute;
+    text-align:left;
+    top: 885px;
+    left: 734px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#poruka5{
+    position: absolute;
+    text-align:left;
+    top: 885px;
+    left: 700px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#stop1{
+    position: absolute;
+    text-align:left;
+    top: 843px;
+    left: 115px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#stop2{
+    position: absolute;
+    text-align:left;
+    top: 843px;
+    left: 500px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#stop3{
+    position: absolute;
+    text-align:left;
+    top: 843px;
+    left: 880px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#stop4{
+    position: absolute;
+    text-align:left;
+    top: 843px;
+    left: 1260px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#stop5{
+    position: absolute;
+    text-align:left;
+    top: 843px;
+    left: 1635px;
+    font-size: 32px;
+    text-shadow: 2px 2px red;
+    color:yellow;
+    font-family: Arial;
+    background-color: red;
+}
+#tabela{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 1300px;
+    height: 280px;
+    text-align: center;
+    color: yellow;
+    border: 8px solid;
+    border-radius: 25px;
+    background-color: red;
+}
+#dobitak{
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    font-family: Arial;
+    font-size: 128px;
+}
+#nazivdobitka{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-family: Arial;
+    font-size: 128px;
+}
+#vrednostdobitka{
+    position: absolute;
+    text-align: right;
+    top: 140px;
+    right: 20px;
+    font-family: Arial;
+    font-size: 128px;
+}
+#izborlevo{
+    position: absolute;
+    top: 856px;
+    left: 12px;
+    width: 720px;
+    height: 50px;
+    text-align: center;
+    color: yellow;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: red;
+}
+#izbordesno{
+    position: absolute;
+    top: 856px;
+    left: 1150px;
+    width: 725px;
+    height: 50px;
+    text-align: center;
+    color: yellow;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: red;
+}
+#dupliranje{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    font-family: Arial;
+    font-size: 48px;
+}
+#kasiranje{
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    font-family: Arial;
+    font-size: 48px;
+}
+#pobeda{
+    position: absolute;
+    top: 856px;
+    left: 572px;
+    width: 720px;
+    height: 50px;
+    text-align: center;
+    color: yellow;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: red;
+}
+#pobedio{
+    position: absolute;
+    top: -7px;
+    left: 230px;
+    font-family: Arial;
+    font-size: 56px;
+}
