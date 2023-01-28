@@ -149,7 +149,7 @@ function Karta1_12() {
     }
 
 
-    document.getElementById("kartaxx").innerHTML = $k00;
+    //document.getElementById("kartaxx").innerHTML = $k00;
 
 }
 function Brisanje() {
