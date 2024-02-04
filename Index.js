@@ -1,66 +1,57 @@
-let $deljenje = 0;
+let $deal = 0;
 let $game = 0;
-let $isplata = 0;
+let $money = 0;
 
 let $c = 0;
 let $u = 1;
 let $a = 1;
 
-let $d0;
-let $d1;
-let $d2;
-let $d3;
-let $d4;
-let $d5;
-let $d6;
-let $d7;
-let $d8;
-let $d9;
+let $wining_0;
+let $wining_1;
+let $wining_2;
+let $wining_3;
+let $wining_4;
+let $wining_5;
+let $wining_6;
+let $wining_7;
+let $wining_8;
+let $wining_9;
 
-let $timerProvera1;
-let $timerProvera2;
-let $timerProvera3;
-let $timerMinussto1;
-let $timerMinussto2;
-let $timerMinussto3;
-let $timerOdbrojano1;
-let $timerOdbrojano2;
-let $timerNula1;
-let $timerNula2;
+let $Check_1;
+let $Check_2;
+let $Check_3;
+let $Minus_100_1;
+let $Minus_100_2;
+let $Minus_100_3;
+let $Countdown_1;
+let $Countdown_2;
+let $Zero_1;
+let $Zero_2;
 
-let $timer1;
-let $timer2;
-let $timer3;
-let $timer4;
-let $timer5;
-let $timer6;
-let $timer7;
-let $timer8;
-let $timer9;
-let $timer10;
+let $First_Deal;
+let $Audio_Cards;
 
-let $timerPrvodeljenje;
-let $timerAudiokarta12345;
+let $card_1;
+let $card_2;
+let $card_3;
+let $card_4;
+let $card_5;
 
-let $timerKarta1;
-let $timerKarta2;
-let $timerKarta3;
-let $timerKarta4;
-let $timerKarta5;
-let $timerDobitak1;
-let $timerIzbor1;
-let $timerDobitak2;
+let $choice_1;
 
-let $timerCekanje1;
-let $timerCekanje2;
-let $timerCekanje3;
-let $timerCekanje4;
-let $timerCekanje5;
-let $timerCekanje6;
-let $timerCekanje7;
-let $timerCekanje8;
-let $timerCekanje9;
-let $timerCekanje10;
+let $cards_1;
+let $cards_2;
+
+let $waiting_1;
+let $waiting_2;
+let $waiting_3;
+let $waiting_4;
+let $waiting_5;
+let $waiting_6;
+let $waiting_7;
+let $waiting_8;
+let $waiting_9;
+let $waiting_10;
 
 let $k1;
 let $k2;
@@ -70,121 +61,121 @@ let $k5;
 
 let $n1;
 let $b1;
-let $timerAudiokarta1;
+let $Audio_Card_1;
 
 let $n2;
 let $b2;
-let $timerAudiokarta2;
+let $Audio_Card_2;
 
 let $n3;
 let $b3;
-let $timerAudiokarta3;
+let $Audio_Card_3;
 
 let $n4;
 let $b4;
-let $timerAudiokarta4;
+let $Audio_Card_4;
 
 let $n5;
 let $b5;
-let $timerAudiokarta5;
+let $Audio_Card_5;
 
-let $dobitak;
-let $dveiste;
-let $cetiriboje;
+let $win;
+let $two_of_a_kind;
+let $four_colors;
 
-let $Fiveofakind;
-let $Royalflush;
-let $Streetflush;
+let $Five_of_a_kind;
+let $Royal_flush;
+let $Street_flush;
 let $Poker;
-let $Fullhouse;
+let $Full_house;
 let $Flush;
 let $Street;
-let $Threeofakind;
-let $Twopairs;
-let $Highpair;
+let $Three_of_a_kind;
+let $Two_pairs;
+let $High_pair;
 
-let $d;
-let $biodobitak;
+let $final_win;
+let $was_win;
 
-let $hold1;
-let $hold2;
-let $hold3;
-let $hold4;
-let $hold5;
+let $hold_1;
+let $hold_2;
+let $hold_3;
+let $hold_4;
+let $hold_5;
 
-let $timerPobeda1;
-let $timerPobeda2;
+let $victory_1;
+let $victory_2;
 
-function $Pobeda1() {
-    pobeda.style.visibility = "hidden";
+function $Victory_1() {
+    victory.style.visibility = "hidden";
 }
-function $Pobeda2() {
-    pobeda.style.visibility = "visible";
+function $Victory_2() {
+    victory.style.visibility = "visible";
 }
-function $audioCount1() {
-    document.getElementById("audioCount1").play();
-    document.getElementById("audioCount1").currentTime = 0;
+function $Audio_count_1() {
+    document.getElementById("audio_count_1").play();
+    audio_count_1.currentTime = 0;
 }
-function $audioCount2() {
-    document.getElementById("audioCount2").play();
-    document.getElementById("audioCount2").currentTime = 0;
+function $Audio_count_2() {
+    document.getElementById("audio_count_2").play();
+    audio_count_2.currentTime = 0;
 }
-function $Minusjedan() {
+function $Minus_1() {
     $c = $c + 1;
     document.getElementById("credit").innerHTML = $c;
-    $vrednostKredita();
-    $d = $d - 1;
-    document.getElementById("vrednostdobitka").innerHTML = $d;
-    $audioCount1();
+    $Credit_Value();
+    $final_win = $final_win - 1;
+    document.getElementById("win_value").innerHTML = $final_win;
+    $Audio_count_1();
 }
-function $Minussto() {
+function $Minus_100() {
     $c = $c + 100;
     document.getElementById("credit").innerHTML = $c;
-    $vrednostKredita();
-    $d = $d - 100;
-    document.getElementById("vrednostdobitka").innerHTML = $d;
-    $audioCount2();
+    $Credit_Value();
+    $final_win = $final_win - 100;
+    document.getElementById("win_value").innerHTML = $final_win;
+    $Audio_count_2();
 }
 
-let $poruka3 = document.getElementById("poruka3");
-$poruka3.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRITISNITE  STOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-$poruka3.style.left = "734px";
-let $poruka4 = document.getElementById("poruka4");
-$poruka4.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRITISNITE  DELJENJE&nbsp;&nbsp;&nbsp;&nbsp;";
-$poruka4.style.left = "735px";
-let $poruka5 = document.getElementById("poruka5");
-$poruka5.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRITISNITE  PONIŠTAVANJE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-$poruka5.style.left = "700px";
+let $message_3 = document.getElementById("message_3");
+$message_3.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRESS  HOLD CARDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+$message_3.style.left = "736px";
+let $message_4 = document.getElementById("message_4");
+$message_4.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRESS  DEAL CARDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+$message_4.style.left = "736px";
+let $message_5 = document.getElementById("message_5");
+$message_5.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRESS  CLEAR CARDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+$message_5.style.left = "724px";
 
-let $stop1 = document.getElementById("stop1");
-$stop1.innerHTML = "&nbsp;&nbsp;&nbsp;STOP&nbsp;&nbsp;&nbsp;";
-let $stop2 = document.getElementById("stop2");
-$stop2.innerHTML = "&nbsp;&nbsp;&nbsp;STOP&nbsp;&nbsp;&nbsp;";
-let $stop3 = document.getElementById("stop3");
-$stop3.innerHTML = "&nbsp;&nbsp;&nbsp;STOP&nbsp;&nbsp;&nbsp;";
-let $stop4 = document.getElementById("stop4");
-$stop4.innerHTML = "&nbsp;&nbsp;&nbsp;STOP&nbsp;&nbsp;&nbsp;";
-let $stop5 = document.getElementById("stop5");
-$stop5.innerHTML = "&nbsp;&nbsp;&nbsp;STOP&nbsp;&nbsp;&nbsp;";
+let $stop_1 = document.getElementById("stop_1");
+$stop_1.innerHTML = "&nbsp;&nbsp;&nbsp;HOLD&nbsp;&nbsp;&nbsp;";
+let $stop_2 = document.getElementById("stop_2");
+$stop_2.innerHTML = "&nbsp;&nbsp;&nbsp;HOLD&nbsp;&nbsp;&nbsp;";
+let $stop_3 = document.getElementById("stop_3");
+$stop_3.innerHTML = "&nbsp;&nbsp;&nbsp;HOLD&nbsp;&nbsp;&nbsp;";
+let $stop_4 = document.getElementById("stop_4");
+$stop_4.innerHTML = "&nbsp;&nbsp;&nbsp;HOLD&nbsp;&nbsp;&nbsp;";
+let $stop_5 = document.getElementById("stop_5");
+$stop_5.innerHTML = "&nbsp;&nbsp;&nbsp;HOLD&nbsp;&nbsp;&nbsp;";
 
-$stop1.style.visibility = "hidden";
-$stop2.style.visibility = "hidden";
-$stop3.style.visibility = "hidden";
-$stop4.style.visibility = "hidden";
-$stop5.style.visibility = "hidden";
+$stop_1.style.visibility = "hidden";
+$stop_2.style.visibility = "hidden";
+$stop_3.style.visibility = "hidden";
+$stop_4.style.visibility = "hidden";
+$stop_5.style.visibility = "hidden";
 
-let $timerStop1;
-let $timerStop2;
-let $timerStop3;
-let $timerStop4;
-let $timerStop5;
+let $auto_stop_1;
+let $auto_stop_2;
+let $auto_stop_3;
+let $auto_stop_4;
+let $auto_stop_5;
 
-let $timerNemadobitka;
+let $no_win;
 
 let $stop;
 
-let $timerVeca;
-let $timerManja;
+let $wait_high;
+let $wait_low;
 
 let $k00;
 let $k01;
@@ -199,123 +190,123 @@ let $k09;
 let $k10;
 let $k11;
 
-let $pauzaManja;
-let $pauzaVeca;
+let $pause_high;
+let $pause_low;
 
-let $karta;
+let $card;
 
-$polje1.style.position = "absolute";
-$polje1.style.left = "10px";
-$polje1.style.top = "320px";
-$polje1.style.visibility = "hidden";
+$field_1.style.position = "absolute";
+$field_1.style.left = "10px";
+$field_1.style.top = "320px";
+$field_1.style.visibility = "hidden";
     
-$polje2.style.position = "absolute";
-$polje2.style.left = "390px";
-$polje2.style.top = "320px";
-$polje2.style.visibility = "hidden";
+$field_2.style.position = "absolute";
+$field_2.style.left = "390px";
+$field_2.style.top = "320px";
+$field_2.style.visibility = "hidden";
 
-$polje3.style.position = "absolute";
-$polje3.style.left = "770px";
-$polje3.style.top = "320px";
-$polje3.style.visibility = "hidden";
+$field_3.style.position = "absolute";
+$field_3.style.left = "770px";
+$field_3.style.top = "320px";
+$field_3.style.visibility = "hidden";
 
-$polje4.style.position = "absolute";
-$polje4.style.left = "1150px";
-$polje4.style.top = "320px";
-$polje4.style.visibility = "hidden";
+$field_4.style.position = "absolute";
+$field_4.style.left = "1150px";
+$field_4.style.top = "320px";
+$field_4.style.visibility = "hidden";
 
-$polje5.style.position = "absolute";
-$polje5.style.left = "1530px";
-$polje5.style.top = "320px";
-$polje5.style.visibility = "hidden";
+$field_5.style.position = "absolute";
+$field_5.style.left = "1530px";
+$field_5.style.top = "320px";
+$field_5.style.visibility = "hidden";
 
-$rucno.style.position = "absolute";
-$rucno.style.left = "0px";
-$rucno.style.top = "5px";
-$rucno.style.visibility = "hidden";
+$hand.style.position = "absolute";
+$hand.style.left = "0px";
+$hand.style.top = "5px";
+$hand.style.visibility = "hidden";
 
-tabela.style.visibility = "hidden";
+table.style.visibility = "hidden";
 
-izborlevo.style.visibility = "hidden";
-izbordesno.style.visibility = "hidden";
-pobeda.style.visibility = "hidden";
+left_choice.style.visibility = "hidden";
+right_choice.style.visibility = "hidden";
+victory.style.visibility = "hidden";
 
-veca.style.visibility = "hidden";
-manja.style.visibility = "hidden";
+high.style.visibility = "hidden";
+low.style.visibility = "hidden";
 
-$polje00.style.position = "absolute";
-$polje00.style.left = "10px";
-$polje00.style.top = "320px";
-$polje00.style.visibility = "hidden";
+$field_00.style.position = "absolute";
+$field_00.style.left = "10px";
+$field_00.style.top = "320px";
+$field_00.style.visibility = "hidden";
 
-$polje01.style.position = "absolute";
-$polje01.style.left = "10px";
-$polje01.style.top = "320px";
-$polje01.style.visibility = "hidden";
+$field_01.style.position = "absolute";
+$field_01.style.left = "10px";
+$field_01.style.top = "320px";
+$field_01.style.visibility = "hidden";
 
-$polje02.style.position = "absolute";
-$polje02.style.left = "80px";
-$polje02.style.top = "320px";
-$polje02.style.visibility = "hidden";
+$field_02.style.position = "absolute";
+$field_02.style.left = "80px";
+$field_02.style.top = "320px";
+$field_02.style.visibility = "hidden";
 
-$polje03.style.position = "absolute";
-$polje03.style.left = "150px";
-$polje03.style.top = "320px";
-$polje03.style.visibility = "hidden";
+$field_03.style.position = "absolute";
+$field_03.style.left = "150px";
+$field_03.style.top = "320px";
+$field_03.style.visibility = "hidden";
 
-$polje04.style.position = "absolute";
-$polje04.style.left = "220px";
-$polje04.style.top = "320px";
-$polje04.style.visibility = "hidden";
+$field_04.style.position = "absolute";
+$field_04.style.left = "220px";
+$field_04.style.top = "320px";
+$field_04.style.visibility = "hidden";
 
-$polje05.style.position = "absolute";
-$polje05.style.left = "290px";
-$polje05.style.top = "320px";
-$polje05.style.visibility = "hidden";
+$field_05.style.position = "absolute";
+$field_05.style.left = "290px";
+$field_05.style.top = "320px";
+$field_05.style.visibility = "hidden";
 
-$polje06.style.position = "absolute";
-$polje06.style.left = "360px";
-$polje06.style.top = "320px";
-$polje06.style.visibility = "hidden";
+$field_06.style.position = "absolute";
+$field_06.style.left = "360px";
+$field_06.style.top = "320px";
+$field_06.style.visibility = "hidden";
 
-$polje07.style.position = "absolute";
-$polje07.style.left = "430px";
-$polje07.style.top = "320px";
-$polje07.style.visibility = "hidden";
+$field_07.style.position = "absolute";
+$field_07.style.left = "430px";
+$field_07.style.top = "320px";
+$field_07.style.visibility = "hidden";
 
-$polje08.style.position = "absolute";
-$polje08.style.left = "500px";
-$polje08.style.top = "320px";
-$polje08.style.visibility = "hidden";
+$field_08.style.position = "absolute";
+$field_08.style.left = "500px";
+$field_08.style.top = "320px";
+$field_08.style.visibility = "hidden";
 
-$polje09.style.position = "absolute";
-$polje09.style.left = "570px";
-$polje09.style.top = "320px";
-$polje09.style.visibility = "hidden";
+$field_09.style.position = "absolute";
+$field_09.style.left = "570px";
+$field_09.style.top = "320px";
+$field_09.style.visibility = "hidden";
 
-$polje10.style.position = "absolute";
-$polje10.style.left = "640px";
-$polje10.style.top = "320px";
-$polje10.style.visibility = "hidden";
+$field_10.style.position = "absolute";
+$field_10.style.left = "640px";
+$field_10.style.top = "320px";
+$field_10.style.visibility = "hidden";
 
-$polje11.style.position = "absolute";
-$polje11.style.left = "710px";
-$polje11.style.top = "320px";
-$polje11.style.visibility = "hidden";
+$field_11.style.position = "absolute";
+$field_11.style.left = "710px";
+$field_11.style.top = "320px";
+$field_11.style.visibility = "hidden";
 
-$polje12.style.position = "absolute";
-$polje12.style.left = "780px";
-$polje12.style.top = "320px";
-$polje12.style.visibility = "hidden";
+$field_12.style.position = "absolute";
+$field_12.style.left = "780px";
+$field_12.style.top = "320px";
+$field_12.style.visibility = "hidden";
 
-izbormanja.style.visibility = "hidden";
-izborveca.style.visibility = "hidden";
+low_choice.style.visibility = "hidden";
+high_choice.style.visibility = "hidden";
 
-let $poljeKarte = "$polje00";
-let $timerPogodio;
-let $pola;
-let $prviDeo;
-let $drugiDeo;
+let $card_field = "$field_00";
+let $bingo;
+let $half;
+let $first_part;
+let $second_part;
 
 $includeJs("Poker.js");
 

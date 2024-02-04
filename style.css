@@ -1,220 +1,220 @@
-#dobitak0 {
+#win_0 {
     position: relative;
     text-align:left;
     top: -5px;
     left: 0px;
     font-size: 32px;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak1{
+#win_1 {
     position: relative;
     text-align:left;
     top: -13px;
     font-size: 32px;
     color:red;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak2{
+#win_2 {
     position: relative;
     text-align:left;
     top: -21px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak3{
+#win_3 {
     position: relative;
     text-align:left;
     top: -29px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak4{
+#win_4 {
     position: relative;
     text-align:left;
     top: -37px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak5{
+#win_5 {
     position: relative;
     text-align:left;
     top: -45px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak6{
+#win_6 {
     position: relative;
     text-align:left;
     top: -53px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak7{
+#win_7 {
     position: relative;
     text-align:left;
     top: -61px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak8{
+#win_8 {
     position: relative;
     text-align:left;
     top: -69px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobitak9{
+#win_9 {
     position: relative;
     text-align:left;
     top: -77px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit0{
+#value_0 {
     position: absolute;
     text-align: right;
     top: 3px;
     right: 600px;
     font-size: 32px;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit1{
+#value_1 {
     position: absolute;
     text-align: right;
     top: 33px;
     right: 600px;
     font-size: 32px;
     color:red;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit2{
+#value_2 {
     position: absolute;
     text-align: right;
     top: 61px;
     right: 600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit3{
+#value_3 {
     position: absolute;
     text-align: right;
     top: 90px;
     right: 600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit4{
+#value_4 {
     position: absolute;
     text-align: right;
     top: 118px;
     right: 600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit5{
+#value_5 {
     position: absolute;
     text-align: right;
     top: 148px;
     right: 600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit6{
+#value_6 {
     position: absolute;
     text-align: right;
     top: 176px;
     right: 600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit7{
+#value_7 {
     position: absolute;
     text-align: right;
     top: 205px;
     right: 600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit8{
+#value_8 {
     position: absolute;
     text-align: right;
     top: 234px;
     right: 600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#dobit9{
+#value_9 {
     position: absolute;
     text-align: right;
     top: 264px;
     right: 600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#kredit{
+#Credit {
     position:absolute;
     text-align:left;
     top: 36px;
     left: 1574px;
     font-size: 32px;
     color:red;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#credit{
+#credit {
     position:absolute;
     text-align:left;
     top: 66px;
     left: 1600px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#ulog{
+#Bet {
     position: absolute;
     text-align:left;
     top: 120px;
-    left: 1588px;
+    left: 1598px;
     font-size: 32px;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#bet{
+#bet {
     position: absolute;
     text-align:left;
     top: 150px;
     left: 1612px;
     font-size: 32px;
     color:burlywood;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#autohold{
+#auto_hold {
     position: absolute;
     text-align:left;
     top: 208px;
     left: 1548px;
     font-size: 32px;
     color:blue;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#reklama1{
+#joker {
     position: absolute;
     text-align:left;
     top: 340px;
@@ -222,9 +222,9 @@
     font-size: 250px;
     font-style: italic;
     color:red;
-    font-family: Algerian;
+    font-family: 'Algerian', cursive;
 }
-#reklama2{
+#card {
     position: absolute;
     text-align:left;
     top: 560px;
@@ -232,9 +232,9 @@
     font-size: 250px;
     font-style: italic;
     color:red;
-    font-family: Algerian;
+    font-family: 'Algerian', cursive;
 }
-#levo{
+#left {
     position: absolute;
     text-align:left;
     top: 885px;
@@ -242,10 +242,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#desno{
+#right {
     position: absolute;
     text-align:left;
     top: 885px;
@@ -253,10 +253,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#poruka1{
+#message_1 {
     position: absolute;
     text-align:left;
     top: 885px;
@@ -264,10 +264,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#poruka2{
+#message_2 {
     position: absolute;
     text-align:left;
     top: 885px;
@@ -275,10 +275,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#poruka3{
+#message_3 {
     position: absolute;
     text-align:left;
     top: 885px;
@@ -286,10 +286,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#poruka4{
+#message_4 {
     position: absolute;
     text-align:left;
     top: 885px;
@@ -297,10 +297,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#poruka5{
+#message_5 {
     position: absolute;
     text-align:left;
     top: 885px;
@@ -308,10 +308,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#stop1{
+#stop_1 {
     position: absolute;
     text-align:left;
     top: 843px;
@@ -319,10 +319,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#stop2{
+#stop_2 {
     position: absolute;
     text-align:left;
     top: 843px;
@@ -330,10 +330,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#stop3{
+#stop_3 {
     position: absolute;
     text-align:left;
     top: 843px;
@@ -341,10 +341,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#stop4{
+#stop_4 {
     position: absolute;
     text-align:left;
     top: 843px;
@@ -352,10 +352,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#stop5{
+#stop_5 {
     position: absolute;
     text-align:left;
     top: 843px;
@@ -363,10 +363,10 @@
     font-size: 32px;
     text-shadow: 2px 2px red;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     background-color: red;
 }
-#tabela{
+#table {
     position: absolute;
     top: 5px;
     left: 10px;
@@ -378,29 +378,29 @@
     border-radius: 25px;
     background-color: red;
 }
-#dobitak{
+#Win {
     position: absolute;
     top: 140px;
     left: 10px;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 128px;
 }
-#nazivdobitka{
+#win_name {
     position: absolute;
     top: -10px;
     left: 10px;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 128px;
 }
-#vrednostdobitka{
+#win_value {
     position: absolute;
     text-align: right;
     top: 140px;
     right: 20px;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 128px;
 }
-#izborlevo{
+#left_choice {
     position: absolute;
     top: 856px;
     left: 12px;
@@ -412,7 +412,7 @@
     border-radius: 5px;
     background-color: red;
 }
-#izbordesno{
+#right_choice {
     position: absolute;
     top: 856px;
     left: 1150px;
@@ -424,21 +424,21 @@
     border-radius: 5px;
     background-color: red;
 }
-#dupliranje{
+#Gambling {
     position: absolute;
     top: 0px;
-    left: 200px;
-    font-family: Arial;
+    left: 220px;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 48px;
 }
-#kasiranje{
+#Cashing {
     position: absolute;
     top: 0px;
-    left: 230px;
-    font-family: Arial;
+    left: 250px;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 48px;
 }
-#pobeda{
+#victory {
     position: absolute;
     top: 856px;
     left: 572px;
@@ -450,50 +450,50 @@
     border-radius: 5px;
     background-color: red;
 }
-#pobedio{
+#You_win {
     position: absolute;
     top: -7px;
-    left: 230px;
-    font-family: Arial;
+    left: 232px;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 56px;
 }
-#veca{
+#high {
     position: absolute;
     top: 843px;
     left: 780px;
     font-size: 32px;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#manja{
+#low {
     position: absolute;
     top: 880px;
     left: 800px;
     font-size: 32px;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#izbormanja{
+#low_choice {
     position: absolute;
     top: 500px;
     left: 580px;
     font-size: 128px;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#izborveca{
+#high_choice {
     position: absolute;
     top: 500px;
     left: 580px;
     font-size: 128px;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
-#kartaxx{
+#cheat {
     position: absolute;
     top: 40px;
     left: 1780px;
     font-size: 28px;
     color:yellow;
-    font-family: Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
